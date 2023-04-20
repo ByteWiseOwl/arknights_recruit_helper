@@ -19,3 +19,8 @@ About me:
 and I learned programming almost exclusively through YouTube or similar platforms. Accordingly,
 I am inexperienced, and I'm sure my code reflects that.
 So I'm grateful for any feedback, even if it's harsh, as long as it helps me improve.
+
+
+Note for Compiling:
+
+If you plan on compiling "Arknights Recruit Helper" yourself, please note that the res folder must be located in the same directory as the executable.
