@@ -841,7 +841,7 @@ fn main() {
     };
 
     eframe::run_native(
-        "Arknights Recrut Helper",
+        "Arknights Recruit Helper",
         win_option,
-        Box::new(|cc| Box::new(ArknightsRecruitHelper::new(cc, app_option)))).expect("TODO: panic message");
+        Box::new(|cc| Box::new(ArknightsRecruitHelper::new(cc, app_option)))).expect("failed to run");
 }
