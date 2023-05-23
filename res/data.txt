@@ -7,7 +7,7 @@
             {"index": 0, "name": "Shining", "tags": ["Top Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 6},
             {"index": 0, "name": "Nightingale", "tags": ["Top Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 6},
             {"index": 0, "name": "Ifrit", "tags": ["Top Operator", "Ranged", "Caster", "AoE", "Debuff"], "rar": 6},
-	    {"index": 0, "name": "Ceobe", "tags": ["Top Operator", "Ranged", "Caster", "DPS", "Crowd-Control"], "rar": 6},
+	        {"index": 0, "name": "Ceobe", "tags": ["Top Operator", "Ranged", "Caster", "DPS", "Crowd-Control"], "rar": 6},
             {"index": 0, "name": "Mostima", "tags": ["Top Operator", "Ranged", "Caster", "AoE", "Crowd Control", "Support"], "rar": 6},
             {"index": 0, "name": "Exusiai", "tags": ["Top Operator", "Ranged", "Sniper", "DPS"], "rar": 6},
             {"index": 0, "name": "Schwarz", "tags": ["Top Operator", "Ranged", "Sniper", "DPS"], "rar": 6},
@@ -23,12 +23,13 @@
             {"index": 0, "name": "Hoshiguma", "tags": ["Top Operator", "Melee", "Defender", "DPS", "Defense"], "rar": 6},
             {"index": 0, "name": "Saria", "tags": ["Top Operator", "Melee", "Defender", "Healing", "Support", "Defense"], "rar": 6},
             {"index": 0, "name": "Phantom", "tags": ["Top Operator", "Melee", "Specialist", "DPS", "Fast-Redeploy"], "rar": 6},
+            {"index": 0, "name": "Weedy", "tags": ["Top Operator", "Melee", "Specialist", "DPS", "Shift", "Crowd-Control"], "rar": 6},
 
             {"index": 0, "name": "Ptilopsis", "tags": ["Senior Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 5},
             {"index": 0, "name": "Silence", "tags": ["Senior Operator", "Ranged", "Medic", "Healing"], "rar": 5},
             {"index": 0, "name": "Warfarin", "tags": ["Senior Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 5},
             {"index": 0, "name": "Nightmare", "tags": ["Senior Operator", "Ranged", "Caster", "Healing", "DPS", "Slow"], "rar": 5},
-	    {"index": 0, "name": "Leizi", "tags": ["Senior Operator", "Ranged", "Caster", "DPS"], "rar": 5},
+	        {"index": 0, "name": "Leizi", "tags": ["Senior Operator", "Ranged", "Caster", "DPS"], "rar": 5},
             {"index": 0, "name": "Provence", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Blue Poison", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Firewatch", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS", "Nuker"], "rar": 5},
@@ -42,6 +43,7 @@
             {"index": 0, "name": "Mayer", "tags": ["Senior Operator", "Ranged", "Supporter", "Crowd-Control", "Summon"], "rar": 5},
             {"index": 0, "name": "Glaucus", "tags": ["Senior Operator", "Ranged", "Supporter", "Slow", "Crowd-Control"], "rar": 5},
             {"index": 0, "name": "Shamare", "tags": ["Senior Operator", "Ranged", "Supporter", "Debuff"], "rar": 5},
+            {"index": 0, "name": "Tsukinogi", "tags": ["Senior Operator", "Ranged", "Supporter", "Support", "Survival"], "rar": 5},
             {"index": 0, "name": "Specter", "tags": ["Senior Operator", "Melee", "Guard", "AoE", "Survival"], "rar": 5},
             {"index": 0, "name": "Indra", "tags": ["Senior Operator", "Melee", "Guard", "DPS", "Survival"], "rar": 5},
             {"index": 0, "name": "Swire", "tags": ["Senior Operator", "Melee", "Guard", "Support", "DPS"], "rar": 5},
@@ -50,11 +52,13 @@
             {"index": 0, "name": "Texas", "tags": ["Senior Operator", "Melee", "Vanguard", "Crowd-Control", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Zima", "tags": ["Senior Operator", "Melee", "Vanguard", "Support", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Reed", "tags": ["Senior Operator", "Melee", "Vanguard", "DPS", "DP-Recovery"], "rar": 5},
+            {"index": 0, "name": "Elysium", "tags": ["Senior Operator", "Melee", "Vanguard", "Support", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Nearl", "tags": ["Senior Operator", "Melee", "Defender", "Healing", "Defense"], "rar": 5},
             {"index": 0, "name": "Liskarm", "tags": ["Senior Operator", "Melee", "Defender", "DPS", "Defense"], "rar": 5},
             {"index": 0, "name": "Vulcan", "tags": ["Senior Operator", "Melee", "Defender", "DPS", "Survival", "Defense" ], "rar": 5},
             {"index": 0, "name": "Croissant", "tags": ["Senior Operator", "Melee", "Defender", "Defense", "Shift"], "rar": 5},
             {"index": 0, "name": "Hung", "tags": ["Senior Operator", "Melee", "Defender", "Healing", "Defense"], "rar": 5},
+            {"index": 0, "name": "Asbestos", "tags": ["Senior Operator", "Melee", "Defender", "DPS", "Defense"], "rar": 5},
             {"index": 0, "name": "Projekt Red", "tags": ["Senior Operator", "Melee", "Specialist", "Crowd-Control", "Fast-Redeploy"], "rar": 5},
             {"index": 0, "name": "Waai Fu", "tags": ["Senior Operator", "Melee", "Specialist", "Debuff", "Fast-Redeploy"], "rar": 5},
             {"index": 0, "name": "Manticore", "tags": ["Senior Operator", "Melee", "Specialist", "DPS", "Survival"], "rar": 5},
@@ -132,5 +136,5 @@
         [0, 3, 4]
         ]
 ,
-"version" : "EN April, 2022" 
+"version" : "EN May, 2023"
 }
