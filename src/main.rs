@@ -27,7 +27,7 @@ enum Mode {
 #[derive(Serialize, Deserialize)]
 pub struct Options{
     window_name: String,
-    title_color: Color32,
+    title_color: [u8; 4],
     initial_window_size: (f32, f32),
     initial_window_pos: (f32, f32),
     tag_pos: (f32, f32, f32, f32),
@@ -230,6 +230,7 @@ struct ArknightsRecruitHelper {
     tag_image_4: TextureHandle,
     tag_image_5: TextureHandle,
     last_op_result: Vec<OpResult>,
+    title_color: Color32,
     time_now: Instant,
     time_last: Instant,
 }
@@ -280,6 +281,13 @@ impl ArknightsRecruitHelper {
             }
             }).collect();
 
+        let title_color = Color32::from_rgba_unmultiplied(
+            options.title_color[0],
+            options.title_color[1],
+            options.title_color[2],
+            options.title_color[3]
+        );
+
         Self {
             mode: DisplayResults,
             options,
@@ -292,6 +300,7 @@ impl ArknightsRecruitHelper {
             tag_image_4: dummy_image.clone(),
             tag_image_5: dummy_image,
             last_op_result: Vec::new(),
+            title_color,
             time_now: Instant::now(),
             time_last: start,
         }
@@ -303,7 +312,7 @@ impl ArknightsRecruitHelper {
                 // let title = format!("Arknights Recruit Helper Beta - FPS: {}", 1000 / self.time_now.checked_duration_since(self.time_last).expect("time error").as_millis());
                 // std::println!("{}", 1000 / self.time_now.checked_duration_since(self.time_last).expect("time error").as_millis());
                 let title = "Arknights Recruit Helper";
-                let text_color = self.options.title_color;
+                let text_color = self.title_color;
                 let height = 35.0;
 
                 let mut rect = ui.max_rect();
@@ -423,7 +432,7 @@ impl ArknightsRecruitHelper {
             ui.add_space(PADDING);
             ui.horizontal(|ui| {
                 ui.label("Title Color:");
-                ui.color_edit_button_srgba(&mut self.options.title_color);
+                ui.color_edit_button_srgba(&mut self.title_color);
             })
 
 
@@ -769,6 +778,8 @@ impl eframe::App for ArknightsRecruitHelper {
     }
 
     fn on_exit(&mut self, _gl: Option<&eframe::glow::Context>) {
+        self.options.title_color = self.title_color.to_srgba_unmultiplied();
+
         let to_save = serde_json::to_string(&self.options).unwrap();
         // I can't use replace() because it is overwritten by TextBuffer
         let to_save = to_save.replacen(",\"", ",\n\"", 999);
