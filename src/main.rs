@@ -231,6 +231,7 @@ struct ArknightsRecruitHelper {
     tag_image_5: TextureHandle,
     last_op_result: Vec<OpResult>,
     title_color: Color32,
+    scant_recently: bool,
     time_now: Instant,
     time_last: Instant,
 }
@@ -301,6 +302,7 @@ impl ArknightsRecruitHelper {
             tag_image_5: dummy_image,
             last_op_result: Vec::new(),
             title_color,
+            scant_recently: false,
             time_now: Instant::now(),
             time_last: start,
         }
@@ -401,7 +403,7 @@ impl ArknightsRecruitHelper {
         self.update_tag_image(ctx);
         CentralPanel::default().show(ctx, |ui| {
             ui.add_space(PADDING);
-            ui.label("If Arknights Recruit Helper is not able to find your emulator:\n\n\
+            ui.label("If Arknights Recruit Helper is not able to find your emulator:\n\
             1: Press the \"Find Emulator Window\" button.\n\
             2: Click into the window of your Arknights emulator.\n\
             3: Do 1st and 2nd within 3 seconds.\n");
@@ -435,8 +437,6 @@ impl ArknightsRecruitHelper {
                 ui.color_edit_button_srgba(&mut self.title_color);
             })
 
-
-
         });
     }
 
@@ -466,7 +466,13 @@ impl ArknightsRecruitHelper {
         if self.last_op_result.is_empty() {return;}
 
         CentralPanel::default().show(ctx, |ui| {
-            ScrollArea::vertical().show(ui, |ui| {
+            let mut scroll_area = ScrollArea::vertical();
+            if self.scant_recently{
+                scroll_area = scroll_area.vertical_scroll_offset(0.0);
+                self.scant_recently = false;
+            }
+
+                scroll_area.show(ui, |ui| {
                 // Start
                 Grid::new("result_grid")
                     .num_columns(2)
@@ -596,13 +602,13 @@ impl ArknightsRecruitHelper {
                 // End
                 ui.add_space(200.0);
                 }); // end ScrollArea
-            // ui.add_space(PADDING);
         });
     }
 
     fn clicked_scan_button(&mut self, ctx: &Context) {
         let start_time = Instant::now();
         self.mode = DisplayResults;
+        self.scant_recently = true;
 
         let mut image_1 = Arc::new((ColorImage::new([1, 1], Color32::BLACK), "".to_string()));
         let mut image_2 = Arc::new((ColorImage::new([1, 1], Color32::BLACK), "".to_string()));
@@ -770,8 +776,8 @@ impl eframe::App for ArknightsRecruitHelper {
 
         ctx.request_repaint();
 
-        self.time_last = self.time_now;
-        self.time_now = Instant::now();
+        // self.time_last = self.time_now;
+        // self.time_now = Instant::now();
 
         std::thread::sleep(NAPTIME);
 
