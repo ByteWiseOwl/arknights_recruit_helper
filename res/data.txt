@@ -7,10 +7,11 @@
             {"index": 0, "name": "Shining", "tags": ["Top Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 6},
             {"index": 0, "name": "Nightingale", "tags": ["Top Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 6},
             {"index": 0, "name": "Ifrit", "tags": ["Top Operator", "Ranged", "Caster", "AoE", "Debuff"], "rar": 6},
-	    {"index": 0, "name": "Ceobe", "tags": ["Top Operator", "Ranged", "Caster", "DPS", "Crowd-Control"], "rar": 6},
+	        {"index": 0, "name": "Ceobe", "tags": ["Top Operator", "Ranged", "Caster", "DPS", "Crowd-Control"], "rar": 6},
             {"index": 0, "name": "Mostima", "tags": ["Top Operator", "Ranged", "Caster", "AoE", "Crowd Control", "Support"], "rar": 6},
             {"index": 0, "name": "Exusiai", "tags": ["Top Operator", "Ranged", "Sniper", "DPS"], "rar": 6},
             {"index": 0, "name": "Schwarz", "tags": ["Top Operator", "Ranged", "Sniper", "DPS"], "rar": 6},
+            {"index": 0, "name": "Rosa", "tags": ["Top Operator", "Ranged", "Sniper", "DPS", "Crowd-Control"], "rar": 6},
             {"index": 0, "name": "Magallan", "tags": ["Top Operator", "Ranged", "Supporter", "Support", "DPS", "Slow"], "rar": 6},
             {"index": 0, "name": "Aak", "tags": ["Top Operator", "Ranged", "Specialist", "Support", "DPS"], "rar": 6},
             {"index": 0, "name": "Ch'en", "tags": ["Top Operator", "Melee", "Guard", "DPS", "Nuker"], "rar": 6},
@@ -29,7 +30,8 @@
             {"index": 0, "name": "Silence", "tags": ["Senior Operator", "Ranged", "Medic", "Healing"], "rar": 5},
             {"index": 0, "name": "Warfarin", "tags": ["Senior Operator", "Ranged", "Medic", "Healing", "Support"], "rar": 5},
             {"index": 0, "name": "Nightmare", "tags": ["Senior Operator", "Ranged", "Caster", "Healing", "DPS", "Slow"], "rar": 5},
-	    {"index": 0, "name": "Leizi", "tags": ["Senior Operator", "Ranged", "Caster", "DPS"], "rar": 5},
+	        {"index": 0, "name": "Leizi", "tags": ["Senior Operator", "Ranged", "Caster", "DPS"], "rar": 5},
+	        {"index": 0, "name": "Leonhardt", "tags": ["Senior Operator", "Ranged", "Caster", "AoE", "Nuker"], "rar": 5},
             {"index": 0, "name": "Provence", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Blue Poison", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Firewatch", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS", "Nuker"], "rar": 5},
@@ -84,6 +86,7 @@
             {"index": 0, "name": "May", "tags": ["Ranged", "Sniper", "DPS", "Slow"], "rar": 4},
             {"index": 0, "name": "Ambriel", "tags": ["Ranged", "Sniper", "DPS", "Slow"], "rar": 4},
             {"index": 0, "name": "Earthspirit", "tags": ["Ranged", "Supporter", "Slow"], "rar": 4},
+            {"index": 0, "name": "Podenco", "tags": ["Ranged", "Supporter", "Healing", "Slow"], "rar": 4},
             {"index": 0, "name": "Dobermann", "tags": ["Melee", "Guard", "Support", "DPS"], "rar": 4},
             {"index": 0, "name": "Estelle", "tags": ["Melee", "Guard", "AoE", "Survival"], "rar": 4},
             {"index": 0, "name": "Beehunter", "tags": ["Melee", "Guard", "DPS"], "rar": 4},
@@ -136,5 +139,5 @@
         [0, 3, 4]
         ]
 ,
-"version" : "EN May, 2023"
+"version" : "EN July, 2023"
 }

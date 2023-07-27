@@ -1,5 +1,5 @@
 {"window_name":"LDPlayer",
-"title_color":[244,77,253,255],
+"title_color":[77,77,253,255],
 "initial_window_size":[680.0,900.0],
 "initial_window_pos":[2207.0,133.0],
 "tag_pos":[0.2875,0.5158,0.578,0.3973],
