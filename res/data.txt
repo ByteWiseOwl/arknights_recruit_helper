@@ -142,5 +142,5 @@
         [0, 3, 4]
         ]
 ,
-"version" : "EN July, 2023"
+"version" : "EN November, 2023"
 }
