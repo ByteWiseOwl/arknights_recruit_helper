@@ -73,6 +73,7 @@
             {"index": 0, "name": "Justice Knight", "tags": ["Ranged", "Sniper", "Support", "Robot"], "rar": 1},
             {"index": 0, "name": "Castle-3", "tags": ["Melee", "Guard", "Support", "Robot"], "rar": 1},
             {"index": 0, "name": "Thermal-EX", "tags": ["Melee", "Specialist", "Nuker", "Robot"], "rar": 1},
+            {"index": 0, "name": "Friston-3", "tags": ["Melee", "Defender", "Defense", "Robot"], "rar": 1},
 
             {"index": 0, "name": "Myrrh", "tags": ["Ranged", "Medic", "Healing"], "rar": 4},
             {"index": 0, "name": "Perfumer", "tags": ["Ranged", "Medic", "Healing"], "rar": 4},
