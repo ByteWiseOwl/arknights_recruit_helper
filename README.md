@@ -4,6 +4,7 @@ What it does:
 tags and creating a list of which tag combinations can recruit which operators.
 The list is sorted in such a way that the rarest results appear at the top.
 
+![example.gif](example.gif)
 
 How it works:
 
