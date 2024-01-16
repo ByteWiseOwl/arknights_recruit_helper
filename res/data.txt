@@ -20,6 +20,7 @@
             {"index": 0, "name": "Skadi", "tags": ["Top Operator", "Melee", "Guard", "DPS", "Survival"], "rar": 6},
             {"index": 0, "name": "Hellagur", "tags": ["Top Operator", "Melee", "Guard", "DPS", "Survival"], "rar": 6},
             {"index": 0, "name": "Blaze", "tags": ["Top Operator", "Melee", "Guard", "DPS", "Survival"], "rar": 6},
+            {"index": 0, "name": "Thorns", "tags": ["Top Operator", "Melee", "Guard", "DPS", "Defense"], "rar": 6},
             {"index": 0, "name": "Siege", "tags": ["Top Operator", "Melee", "Vanguard", "DPS", "DP-Recovery"], "rar": 6},
             {"index": 0, "name": "Bagpipe", "tags": ["Top Operator", "Melee", "Vanguard", "DPS", "DP-Recovery"], "rar": 6},
             {"index": 0, "name": "Hoshiguma", "tags": ["Top Operator", "Melee", "Defender", "DPS", "Defense"], "rar": 6},
@@ -33,6 +34,7 @@
             {"index": 0, "name": "Nightmare", "tags": ["Senior Operator", "Ranged", "Caster", "Healing", "DPS", "Slow"], "rar": 5},
 	    {"index": 0, "name": "Leizi", "tags": ["Senior Operator", "Ranged", "Caster", "DPS"], "rar": 5},
 	    {"index": 0, "name": "Leonhardt", "tags": ["Senior Operator", "Ranged", "Caster", "AoE", "Nuker"], "rar": 5},
+	    {"index": 0, "name": "Beeswax", "tags": ["Senior Operator", "Ranged", "Caster", "AoE", "Defense"], "rar": 5},
             {"index": 0, "name": "Provence", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Blue Poison", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Firewatch", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS", "Nuker"], "rar": 5},
@@ -41,6 +43,7 @@
             {"index": 0, "name": "Platinum", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS"], "rar": 5},
             {"index": 0, "name": "Executor", "tags": ["Senior Operator", "Ranged", "Sniper", "AoE"], "rar": 5},
             {"index": 0, "name": "Sesa", "tags": ["Senior Operator", "Ranged", "Sniper", "AoE", "Debuff"], "rar": 5},
+            {"index": 0, "name": "Andreana", "tags": ["Senior Operator", "Ranged", "Sniper", "DPS", "Slow"], "rar": 5},
             {"index": 0, "name": "Pramanix", "tags": ["Senior Operator", "Ranged", "Supporter", "Debuff"], "rar": 5},
             {"index": 0, "name": "Istina", "tags": ["Senior Operator", "Ranged", "Supporter", "DPS", "Slow"], "rar": 5},
             {"index": 0, "name": "Mayer", "tags": ["Senior Operator", "Ranged", "Supporter", "Crowd-Control", "Summon"], "rar": 5},
@@ -57,6 +60,7 @@
             {"index": 0, "name": "Zima", "tags": ["Senior Operator", "Melee", "Vanguard", "Support", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Reed", "tags": ["Senior Operator", "Melee", "Vanguard", "DPS", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Elysium", "tags": ["Senior Operator", "Melee", "Vanguard", "Support", "DP-Recovery"], "rar": 5},
+            {"index": 0, "name": "Chiave", "tags": ["Senior Operator", "Melee", "Vanguard", "DPS", "DP-Recovery"], "rar": 5},
             {"index": 0, "name": "Nearl", "tags": ["Senior Operator", "Melee", "Defender", "Healing", "Defense"], "rar": 5},
             {"index": 0, "name": "Liskarm", "tags": ["Senior Operator", "Melee", "Defender", "DPS", "Defense"], "rar": 5},
             {"index": 0, "name": "Vulcan", "tags": ["Senior Operator", "Melee", "Defender", "DPS", "Survival", "Defense" ], "rar": 5},
@@ -108,6 +112,7 @@
             {"index": 0, "name": "Gravel", "tags": ["Melee", "Specialist", "Defense", "Fast-Redeploy"], "rar": 4},
             {"index": 0, "name": "Rope", "tags": ["Melee", "Specialist", "Shift"], "rar": 4},
             {"index": 0, "name": "Shaw", "tags": ["Melee", "Specialist", "Shift"], "rar": 4},
+            {"index": 0, "name": "Jaye", "tags": ["Melee", "Specialist", "DPS", "Fast-Redeploy"], "rar": 4},
 
             {"index": 0, "name": "Fang", "tags": ["Melee", "Vanguard", "DP-Recovery"], "rar": 3},
             {"index": 0, "name": "Vanilla", "tags": ["Melee", "Vanguard", "DP-Recovery"], "rar": 3},
@@ -143,5 +148,5 @@
         [0, 3, 4]
         ]
 ,
-"version" : "EN November, 2023"
+"version" : "EN January, 2024"
 }
