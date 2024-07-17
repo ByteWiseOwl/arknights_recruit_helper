@@ -317,10 +317,18 @@ impl Vision {
             return (self.err_img_minimized.clone(), "Starter".to_string());
         }
 
-        let left = (width as f32 * position.0) as i32;
+        let mut adjust_left = 0;
+        if (width as f32 / height as f32) > 1.777 {
+            adjust_left = ((width as f32 - (height as f32 * 1.777)) / 2.0) as i32;
+            width = (height as f32 * 1.777) as i32;
+        }
+
+        let mut left = (width as f32 * position.0) as i32;
         let top = (height as f32 * position.1) as i32;
         height = ((height as f32 * position.2) as i32) - top;
         width = ((width as f32 * position.3) as i32) - left;
+        left = left + adjust_left;
+        println!("left: {left} top: {top} height: {height} width: {width}");
 
         let mut buffer = Vision::get_screenshot(hwnd, height, width, left, top);
 
@@ -364,10 +372,17 @@ impl Vision {
             return self.err_img_minimized.clone();
         }
 
-        let left = (width as f32 * position.0) as i32;
+        let mut adjust_left = 0;
+        if (width as f32 / height as f32) > 1.777 {
+            adjust_left = ((width as f32 - (height as f32 * 1.777)) / 2.0) as i32;
+            width = (height as f32 * 1.777) as i32;
+        }
+
+        let mut left = (width as f32 * position.0) as i32;
         let top = (height as f32 * position.1) as i32;
         height = ((height as f32 * position.2) as i32) - top;
         width = ((width as f32 * position.3) as i32) - left;
+        left = left + adjust_left;
 
         let buffer = Vision::get_screenshot(hwnd, height, width, left, top);
 
